@@ -151,9 +151,9 @@
 
       switch (dominant) {
         case 'happy':
-          fill(255, 200, 0, 150);  // color amarillo con un poco de transparencia
-          stroke(255, 150, 0);     // color naranja para el contorno
-          strokeWeight(2);         // grosor de la línea
+          fill(255, 200, 0, 150);  // color groc
+          stroke(255, 150, 0);     // color tronja 
+          strokeWeight(2);         // grossor de la línea
           beginShape();//cara
 vertex(465, 236.1875);
 vertex(453, 240.1875);
@@ -664,8 +664,8 @@ endShape(CLOSE) ;
           break;
 
         case 'angry':
-          stroke(200, 0, 0, 150); // contorno rojo semitransparente
-         fill(255, 150, 150, 180); // relleno rojo claro semitransparente
+          stroke(200, 0, 0, 150); // vermell semitransparent
+          fill(255, 150, 150, 180); // vermell clar semitransparent
           beginShape();cella
 vertex(458, 272.1875);
 vertex(460, 269.1875);
@@ -1182,8 +1182,8 @@ endShape(CLOSE) ;
 
         case 'fearful':
           fill(180, 180, 180, 200); // Gris claro
-          // Color general del contorno
-          stroke(50, 50, 50, 180); // Gris oscuro, algo transparente
+          // Color general del contorn
+          stroke(50, 50, 50, 180); // Gris fosc
           beginShape();
 
           beginShape();boca
@@ -1207,7 +1207,7 @@ vertex(462, 273.1875);
 vertex(464, 272.1875);
 vertex(464, 269.1875);
 endShape();
-          beginShape();brazo
+          beginShape();braç
 vertex(488, 344.1875);
 vertex(484, 349.1875);
 vertex(476, 354.1875);
@@ -1240,7 +1240,7 @@ vertex(508, 336.1875);
 vertex(503, 345.1875);
 vertex(495, 348.1875);
 endShape();
-          beginShape();//pierna izquierda
+          beginShape();//cama esquerra
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -1272,7 +1272,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//pierna derecha
+          beginShape();//cama dreta
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -1304,7 +1304,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//nariz
+          beginShape();//nas
 vertex(455, 285.1875);
 vertex(455, 287.1875);
 vertex(455, 289.1875);
@@ -1317,7 +1317,7 @@ vertex(457, 301.1875);
 vertex(460, 301.1875);
 vertex(462, 300.1875);
 endShape();
-          beginShape();//pie derecho
+          beginShape();//peu dret
 vertex(553, 722.1875);
 vertex(553, 729.1875);
 vertex(553, 734.1875);
@@ -1341,7 +1341,7 @@ vertex(578, 714.1875);
 vertex(573, 717.1875);
 vertex(555, 721.1875);
 endShape(); 
-          beginShape();//pie izquierdo
+          beginShape();//peu esquerre
 vertex(507, 740.1875);
 vertex(503, 742.1875);
 vertex(498, 746.1875);
@@ -1397,12 +1397,12 @@ vertex(494, 236.1875);
 vertex(483, 229.1875);
 vertex(475, 231.1875);
 endShape(CLOSE) ; 
-         beginShape();ojo
+         beginShape();ull
 vertex(462, 283.1875);
 vertex(464, 280.1875);
 vertex(466, 277.1875);
 endShape();
-           beginShape();//cuerpo
+           beginShape();//cos
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -1444,10 +1444,10 @@ vertex(545, 654.1875);
           break;
 
         case 'surprised':
-          fill(255);         // blanco del ojo
-          stroke(0);         // contorno negro
-          strokeWeight(1);   // grosor del contorno
-          beginShape();ojo
+          fill(255);         // blanc del ull
+          stroke(0);         // contorn negre
+          strokeWeight(1);   // grossor del contorn
+          beginShape();ull
 vertex(462, 281.1875);
 vertex(462, 277.1875);
 vertex(465, 275.1875);
@@ -1469,38 +1469,7 @@ vertex(480, 301.1875);
 vertex(477, 303.1875);
 vertex(475, 303.1875);
 endShape();
-          beginShape();//cuerpo
-vertex(507, 641.1875);
-vertex(507, 649.1875);
-vertex(507, 657.1875);
-vertex(507, 664.1875);
-vertex(508, 674.1875);
-vertex(508, 683.1875);
-vertex(509, 693.1875);
-vertex(509, 706.1875);
-vertex(509, 718.1875);
-vertex(509, 725.1875);
-vertex(505, 738.1875);
-vertex(491, 749.1875);
-vertex(483, 756.1875);
-vertex(478, 759.1875);
-vertex(478, 769.1875);
-vertex(488, 767.1875);
-vertex(494, 767.1875);
-vertex(503, 767.1875);
-vertex(516, 766.1875);
-vertex(528, 757.1875);
-vertex(528, 749.1875);
-vertex(526, 737.1875);
-vertex(530, 719.1875);
-vertex(531, 713.1875);
-vertex(534, 701.1875);
-vertex(538, 697.1875);
-vertex(540, 688.1875);
-vertex(540, 680.1875);
-vertex(543, 668.1875);
-vertex(545, 654.1875);
-           endShape(CLOSE);
+         
           beginShape();//cara
 vertex(465, 236.1875);
 vertex(453, 240.1875);
@@ -1524,7 +1493,7 @@ vertex(494, 236.1875);
 vertex(483, 229.1875);
 vertex(475, 231.1875);
 endShape(CLOSE) ; 
-          beginShape();ceja
+          beginShape();cella
 vertex(457, 279.1875);
 vertex(457, 276.1875);
 vertex(458, 276.1875);
@@ -1534,7 +1503,7 @@ vertex(462, 273.1875);
 vertex(464, 272.1875);
 vertex(464, 269.1875);
 endShape();
-          beginShape();brazo
+          beginShape();braç
 vertex(488, 344.1875);
 vertex(484, 349.1875);
 vertex(476, 354.1875);
@@ -1567,7 +1536,7 @@ vertex(508, 336.1875);
 vertex(503, 345.1875);
 vertex(495, 348.1875);
 endShape();
-          beginShape();//pierna izquierda
+          beginShape();//cama esquerre
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -1599,7 +1568,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//pierna derecha
+          beginShape();//cama dreta
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -1631,7 +1600,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//nariz
+          beginShape();//nas
 vertex(455, 285.1875);
 vertex(455, 287.1875);
 vertex(455, 289.1875);
@@ -1644,7 +1613,7 @@ vertex(457, 301.1875);
 vertex(460, 301.1875);
 vertex(462, 300.1875);
 endShape();
-          beginShape();//pie derecho
+          beginShape();//peu dret
 vertex(553, 722.1875);
 vertex(553, 729.1875);
 vertex(553, 734.1875);
@@ -1668,7 +1637,7 @@ vertex(578, 714.1875);
 vertex(573, 717.1875);
 vertex(555, 721.1875);
 endShape(); 
-          beginShape();//pie izquierdo
+          beginShape();//peu esquerre
 vertex(507, 740.1875);
 vertex(503, 742.1875);
 vertex(498, 746.1875);
@@ -1701,14 +1670,8 @@ vertex(535, 744.1875);
 vertex(533, 740.1875);
 vertex(510, 739.1875);
 endShape(); 
-          beginShape();ceja
-vertex(459, 276.1875);
-vertex(460, 272.1875);
-vertex(463, 270.1875);
-vertex(466, 270.1875);
-vertex(469, 270.1875);
-endShape();
-           beginShape();//cuerpo
+    
+           beginShape();//cos
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -1763,12 +1726,7 @@ vertex(494, 236.1875);
 vertex(483, 229.1875);
 vertex(475, 231.1875);
 endShape(CLOSE) ; 
-          beginShape();ojo
-vertex(462, 281.1875);
-vertex(464, 278.1875);
-vertex(467, 276.1875);
-vertex(471, 276.1875);
-endShape();
+          
 
           for (let i = 0; i < 20; i++) {
             let angle = random(TWO_PI);
@@ -1782,8 +1740,8 @@ endShape();
 
         case 'disgusted':
          case 'disgusted':
-          stroke(0, 150, 0, 150);      // borde verde oscuro semi-transparente
-          fill(0, 200, 0, 100);        // relleno verde más claro 
+          stroke(0, 150, 0, 150);      //  verd fosc semi-transparent
+          fill(0, 200, 0, 100);        //  verd mès clar 
           beginShape();boca
 vertex(478, 308.1875);
 vertex(480, 305.1875);
@@ -1792,14 +1750,14 @@ vertex(484, 299.1875);
 vertex(486, 298.1875);
 vertex(488, 297.1875);
 endShape();
-          beginShape();ceja
+          beginShape();cella
 vertex(458, 274.1875);
 vertex(460, 271.1875);
 vertex(463, 270.1875);
 vertex(466, 270.1875);
 vertex(471, 271.1875);
 endShape();
-          beginShape();brazo
+          beginShape();braç
 vertex(488, 344.1875);
 vertex(484, 349.1875);
 vertex(476, 354.1875);
@@ -1832,84 +1790,8 @@ vertex(508, 336.1875);
 vertex(503, 345.1875);
 vertex(495, 348.1875);
 endShape();
-          beginShape();//pierna izquierda
-vertex(507, 641.1875);
-vertex(507, 649.1875);
-vertex(507, 657.1875);
-vertex(507, 664.1875);
-vertex(508, 674.1875);
-vertex(508, 683.1875);
-vertex(509, 693.1875);
-vertex(509, 706.1875);
-vertex(509, 718.1875);
-vertex(509, 725.1875);
-vertex(505, 738.1875);
-vertex(491, 749.1875);
-vertex(483, 756.1875);
-vertex(478, 759.1875);
-vertex(478, 769.1875);
-vertex(488, 767.1875);
-vertex(494, 767.1875);
-vertex(503, 767.1875);
-vertex(516, 766.1875);
-vertex(528, 757.1875);
-vertex(528, 749.1875);
-vertex(526, 737.1875);
-vertex(530, 719.1875);
-vertex(531, 713.1875);
-vertex(534, 701.1875);
-vertex(538, 697.1875);
-vertex(540, 688.1875);
-vertex(540, 680.1875);
-vertex(543, 668.1875);
-vertex(545, 654.1875);
-endShape();
-          beginShape();//pierna derecha
-vertex(507, 641.1875);
-vertex(507, 649.1875);
-vertex(507, 657.1875);
-vertex(507, 664.1875);
-vertex(508, 674.1875);
-vertex(508, 683.1875);
-vertex(509, 693.1875);
-vertex(509, 706.1875);
-vertex(509, 718.1875);
-vertex(509, 725.1875);
-vertex(505, 738.1875);
-vertex(491, 749.1875);
-vertex(483, 756.1875);
-vertex(478, 759.1875);
-vertex(478, 769.1875);
-vertex(488, 767.1875);
-vertex(494, 767.1875);
-vertex(503, 767.1875);
-vertex(516, 766.1875);
-vertex(528, 757.1875);
-vertex(528, 749.1875);
-vertex(526, 737.1875);
-vertex(530, 719.1875);
-vertex(531, 713.1875);
-vertex(534, 701.1875);
-vertex(538, 697.1875);
-vertex(540, 688.1875);
-vertex(540, 680.1875);
-vertex(543, 668.1875);
-vertex(545, 654.1875);
-endShape();
-          beginShape();//nariz
-vertex(455, 285.1875);
-vertex(455, 287.1875);
-vertex(455, 289.1875);
-vertex(455, 292.1875);
-vertex(455, 294.1875);
-vertex(455, 297.1875);
-vertex(455, 299.1875);
-vertex(455, 300.1875);
-vertex(457, 301.1875);
-vertex(460, 301.1875);
-vertex(462, 300.1875);
-endShape();
-          beginShape();//pie derecho
+        
+          beginShape();//peu dret
 vertex(553, 722.1875);
 vertex(553, 729.1875);
 vertex(553, 734.1875);
@@ -1933,7 +1815,7 @@ vertex(578, 714.1875);
 vertex(573, 717.1875);
 vertex(555, 721.1875);
 endShape(); 
-          beginShape();//pie izquierdo
+          beginShape();//peu esquerre
 vertex(507, 740.1875);
 vertex(503, 742.1875);
 vertex(498, 746.1875);
@@ -1966,7 +1848,7 @@ vertex(535, 744.1875);
 vertex(533, 740.1875);
 vertex(510, 739.1875);
 endShape();
-          beginShape();ojo
+          beginShape();ull
 vertex(462, 281.1875);
 vertex(464, 278.1875);
 vertex(467, 276.1875);
@@ -1981,14 +1863,14 @@ vertex(484, 299.1875);
 vertex(486, 298.1875);
 vertex(488, 297.1875);
 endShape();
-          beginShape();ceja
+          beginShape();cella
 vertex(458, 274.1875);
 vertex(460, 271.1875);
 vertex(463, 270.1875);
 vertex(466, 270.1875);
 vertex(471, 271.1875);
 endShape();
-          beginShape();brazo
+          beginShape();braç
 vertex(488, 344.1875);
 vertex(484, 349.1875);
 vertex(476, 354.1875);
@@ -2021,7 +1903,7 @@ vertex(508, 336.1875);
 vertex(503, 345.1875);
 vertex(495, 348.1875);
 endShape();
-          beginShape();//pierna izquierda
+          beginShape();//cama esquerre
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -2053,7 +1935,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//pierna derecha
+          beginShape();//cama derecha
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -2085,7 +1967,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//nariz
+          beginShape();//nas
 vertex(455, 285.1875);
 vertex(455, 287.1875);
 vertex(455, 289.1875);
@@ -2098,7 +1980,7 @@ vertex(457, 301.1875);
 vertex(460, 301.1875);
 vertex(462, 300.1875);
 endShape();
-          beginShape();//pie derecho
+          beginShape();//peu dret
 vertex(553, 722.1875);
 vertex(553, 729.1875);
 vertex(553, 734.1875);
@@ -2122,7 +2004,7 @@ vertex(578, 714.1875);
 vertex(573, 717.1875);
 vertex(555, 721.1875);
 endShape(); 
-          beginShape();//pie izquierdo
+          beginShape();//peu esquerre
 vertex(507, 740.1875);
 vertex(503, 742.1875);
 vertex(498, 746.1875);
@@ -2155,12 +2037,7 @@ vertex(535, 744.1875);
 vertex(533, 740.1875);
 vertex(510, 739.1875);
 endShape();
-          beginShape();ojo
-vertex(462, 281.1875);
-vertex(464, 278.1875);
-vertex(467, 276.1875);
-vertex(471, 276.1875);
-endShape();
+        
                   
           
           for (let i = 0; i < 12; i++) {
@@ -2174,20 +2051,20 @@ endShape();
           break;
 
         default:
-          stroke(150, 150, 150, 150); // gris suave
-          fill(200, 200, 200, 100);   // relleno gris claro semi-transparent
+          stroke(150, 150, 150, 150); // gris suau
+          fill(200, 200, 200, 100);   // gris clar semi-transparent
           beginShape();boca
 vertex(478, 304.1875);
 vertex(481, 300.1875);
 vertex(484, 297.1875);
 vertex(487, 293.1875);
 endShape();
-          beginShape();ojo
+          beginShape();ull
 vertex(462, 281.1875);
 vertex(465, 278.1875);
 vertex(468, 275.1875);
 endShape();
-            beginShape();brazo
+            beginShape();braç
 vertex(488, 344.1875);
 vertex(484, 349.1875);
 vertex(476, 354.1875);
@@ -2220,7 +2097,7 @@ vertex(508, 336.1875);
 vertex(503, 345.1875);
 vertex(495, 348.1875);
 endShape();
-          beginShape();//pierna izquierda
+          beginShape();//cama esquerre
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -2252,7 +2129,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//pierna derecha
+          beginShape();//cama dreta
 vertex(507, 641.1875);
 vertex(507, 649.1875);
 vertex(507, 657.1875);
@@ -2284,7 +2161,7 @@ vertex(540, 680.1875);
 vertex(543, 668.1875);
 vertex(545, 654.1875);
 endShape();
-          beginShape();//nariz
+          beginShape();//nas
 vertex(455, 285.1875);
 vertex(455, 287.1875);
 vertex(455, 289.1875);
@@ -2297,7 +2174,7 @@ vertex(457, 301.1875);
 vertex(460, 301.1875);
 vertex(462, 300.1875);
 endShape();
-          beginShape();//pie derecho
+          beginShape();//peu dret
 vertex(553, 722.1875);
 vertex(553, 729.1875);
 vertex(553, 734.1875);
@@ -2321,7 +2198,7 @@ vertex(578, 714.1875);
 vertex(573, 717.1875);
 vertex(555, 721.1875);
 endShape(); 
-          beginShape();//pie izquierdo
+          beginShape();//peu esquerre
 vertex(507, 740.1875);
 vertex(503, 742.1875);
 vertex(498, 746.1875);
@@ -2354,7 +2231,7 @@ vertex(535, 744.1875);
 vertex(533, 740.1875);
 vertex(510, 739.1875);
 endShape();
-          beginShape();ceja
+          beginShape();cella
 vertex(458, 276.1875);
 vertex(461, 273.1875);
 vertex(465, 270.1875);
